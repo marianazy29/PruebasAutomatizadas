@@ -1,3 +1,13 @@
+/*
+ * RF-CT-003: Validación de Campos Vacíos
+ * Prueba automatizada del formulario de contacto con particionamiento de equivalencias - datos inválidos
+ * 
+ * Autor: Neyber Rojas Zapata
+ * Técnica: Particionamiento de Equivalencias – Datos Inválidos
+ * Herramienta: C# con Selenium WebDriver
+ * Entorno: Navegador Chrome
+ */
+
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;

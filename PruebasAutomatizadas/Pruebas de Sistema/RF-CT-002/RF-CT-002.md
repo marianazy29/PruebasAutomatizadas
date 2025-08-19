@@ -5,7 +5,8 @@
 **Identificador:** RF-CT-002  
 **Nombre:** Envío de Mensaje con Datos Válidos  
 **Técnica:** Particionamiento de Equivalencias - Datos Válidos  
-**Objetivo:** Verificar que se puede enviar un mensaje de contacto con datos válidos exitosamente
+**Objetivo:** Verificar que se puede enviar un mensaje de contacto con datos válidos exitosamente  
+**Autor:** Neyber Rojas Zapata  
 
 ## 🎯 ¿Qué se va a probar?
 
@@ -216,3 +217,10 @@ textInputs[0].SendKeys("Nuevo Nombre");
 textInputs[1].SendKeys("Nuevo Apellido");
 // etc.
 ```
+
+---
+
+**Autor:** Neyber Rojas Zapata  
+**Última actualización:** 19 de Agosto, 2025  
+**Versión:** 1.0  
+**Estado:** ✅ Funcional y Validado

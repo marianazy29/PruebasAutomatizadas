@@ -5,7 +5,8 @@
 **Identificador:** RF-CT-003  
 **Nombre:** Validación de Campos Vacíos  
 **Técnica:** Particionamiento de Equivalencias - Datos Inválidos  
-**Objetivo:** Verificar la validación cuando los campos requeridos están vacíos
+**Objetivo:** Verificar la validación cuando los campos requeridos están vacíos  
+**Autor:** Neyber Rojas Zapata  
 
 ## 🎯 ¿Qué se va a probar?
 
@@ -241,3 +242,10 @@ Para agregar validación de nuevos campos:
 var newField = driver.FindElement(By.Id("new-field"));
 // Aplicar lógica de validación
 ```
+
+---
+
+**Autor:** Neyber Rojas Zapata  
+**Última actualización:** 19 de Agosto, 2025  
+**Versión:** 1.0  
+**Estado:** ✅ Listo para Pruebas

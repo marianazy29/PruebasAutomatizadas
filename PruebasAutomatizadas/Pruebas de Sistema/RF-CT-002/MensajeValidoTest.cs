@@ -1,3 +1,13 @@
+/*
+ * RF-CT-002: Envío de Mensaje con Datos Válidos
+ * Prueba automatizada del formulario de contacto con particionamiento de equivalencias - datos válidos
+ * 
+ * Autor: Neyber Rojas Zapata
+ * Técnica: Particionamiento de Equivalencias – Datos Válidos
+ * Herramienta: C# con Selenium WebDriver
+ * Entorno: Navegador Chrome
+ */
+
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
