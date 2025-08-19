@@ -16,4 +16,8 @@
     <PackageReference Include="Selenium.WebDriver" Version="4.35.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pruebas de Sistema\RF-CT-001\capturas\" />
+  </ItemGroup>
+
 </Project>
