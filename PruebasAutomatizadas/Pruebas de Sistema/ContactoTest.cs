@@ -6,7 +6,7 @@ namespace PruebasAutomatizadas
     [TestClass]
     public sealed class ContactoTest
     {
-        private IWebDriver driver;
+        private IWebDriver driver = null!;
 
         [TestInitialize]
         public void Setup()
