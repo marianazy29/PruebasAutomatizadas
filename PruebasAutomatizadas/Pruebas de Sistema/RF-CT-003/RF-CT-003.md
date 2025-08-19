@@ -242,10 +242,3 @@ Para agregar validación de nuevos campos:
 var newField = driver.FindElement(By.Id("new-field"));
 // Aplicar lógica de validación
 ```
-
----
-
-**Autor:** Neyber Rojas Zapata  
-**Última actualización:** 19 de Agosto, 2025  
-**Versión:** 1.0  
-**Estado:** ✅ Listo para Pruebas

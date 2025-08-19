@@ -217,10 +217,3 @@ textInputs[0].SendKeys("Nuevo Nombre");
 textInputs[1].SendKeys("Nuevo Apellido");
 // etc.
 ```
-
----
-
-**Autor:** Neyber Rojas Zapata  
-**Última actualización:** 19 de Agosto, 2025  
-**Versión:** 1.0  
-**Estado:** ✅ Funcional y Validado
