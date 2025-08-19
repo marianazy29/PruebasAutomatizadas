@@ -59,7 +59,64 @@ d. **Ejecutar pruebas**:
    - Ejecutar desde Visual Studio o consola.
    - Observar resultados en consola y/o reportes de Playwright.
 
----
+**Prueba de API vía Insomnia**
+![API Insomnia](/PruebasAutomatizadas/docs/api-insomnia.png)
+
+Ejecutar:
+```
+dotnet test --filter "ClassName=LoginTestExitoUsuarioValido" 
+```
+Resultado:
+![LoginTestExitoUsuarioValido](/PruebasAutomatizadas/docs/logintestexitousuariovalido.png)
+
+Ejecutar:
+```
+dotnet test --filter "ClassName=LoginTestFallidoContrasenaIncorrecta" 
+```
+Resultado:
+![LoginTestFallidoContrasenaIncorrecta](/PruebasAutomatizadas/docs/logintestfallidocontrasenaincorrecta.png)
+
+Ejecutar:
+```
+dotnet test --filter "ClassName=LoginTestFallidoUsuarioInexistente" 
+```
+Resultado:
+![LoginTestFallidoUsuarioInexistente](/PruebasAutomatizadas/docs/logintestfallidousuarioinexistente.png)
+
+Ejecutar:
+```
+dotnet test --filter "ClassName=LoginTestUsuarioValidoPlaywright" 
+```
+Resultado:
+![LoginTestUsuarioValidoPlaywright](/PruebasAutomatizadas/docs/logintestusuariovalidoplaywright.png)
+
+Ejecutar:
+```
+dotnet test --filter "ClassName=LoginTestValidacionCamposObligatorios" 
+```
+Resultado:
+![LoginTestValidacionCamposObligatorios](/PruebasAutomatizadas/docs/logintestvalidacioncamposobligatorios.png)
+
+Ejecutar:
+```
+dotnet test --filter "ClassName=LoginTestValidacionEmail" 
+```
+Resultado:
+![LoginTestValidacionEmail](/PruebasAutomatizadas/docs/logintestvalidacionemail.png)
+
+Ejecutar:
+```
+dotnet test --filter "ClassName=LoginTestValidacionLongitudPassword" 
+```
+Resultado:
+![LoginTestValidacionLongitudPassword](/PruebasAutomatizadas/docs/logintestvalidacionlongitudpassword.png)
+
+**JMeter - Test Plain - Prueba de concurrencia de usuarios.**
+![Jmeter1](/PruebasAutomatizadas/docs/jmeter1.png)
+![Jmeter2](/PruebasAutomatizadas/docs/jmeter2.png)
+![Jmeter3](/PruebasAutomatizadas/docs/jmeter3.png)
+![Jmeter4](/PruebasAutomatizadas/docs/jmeter4.png)
+![Jmeter5](/PruebasAutomatizadas/docs/jmeter5.png)
 
 ### Nota
 - Esta documentación resume los requisitos, casos de prueba y guía de automatización.  
