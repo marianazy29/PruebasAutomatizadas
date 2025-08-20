@@ -1,8 +1,7 @@
-# Proyecto Final del Módulo 6
 # Plataforma de testing: https://practicesoftwaretesting.com
 
 
-# Módulo de Login
+## Módulo de Login
 
 ## 1. Requerimientos
 
