@@ -33,8 +33,6 @@ El objetivo principal es **validar la funcionalidad del login** en el sistema `P
 > El sistema debe procesar la autenticación de un usuario válido en un **tiempo máximo de 3 segundos**, bajo condiciones normales de operación.  
 > El tiempo de respuesta debe medirse desde el **envío de la solicitud de login** hasta la **carga completa del dashboard**.  
 
----
-
 ## [Casos de Prueba](/PruebasAutomatizadas/Pruebas%20de%20Sistema/LoginTest/readme.md)
 
 1. **CP-RF-LG-01 Login exitoso con credenciales válidas**  
