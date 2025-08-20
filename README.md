@@ -27,3 +27,15 @@
 - ✅ Validación HTML5 nativa
 - ✅ Pruebas individuales por campo
 - ✅ Estados ARIA para accesibilidad
+
+### [RF-CT-001: Validación de Formato del Archivo Adjunto](./PruebasAutomatizadas/Pruebas%20de%20Sistema/RF-CT-001/readme.md)
+
+**Autor:** Mariana Zúñiga Yáñez  
+**Técnica:** Particionamiento de Equivalencias - Datos Inválidos y Datos Inválidos
+**Objetivo:** Verificar el formato correcto del archivo adjunto en el formulario.
+
+**Características:**
+- ✅ Validación de formato válido (.txt).
+- ✅ Validación de formaro inválido (.pdf).
+- ✅ Verificar mensaje de éxito al enviar el formulario.
+- ✅ Verificar mensaje de error al adjuntar un archivo inválido.
