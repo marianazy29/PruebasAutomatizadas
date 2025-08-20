@@ -1,7 +1,5 @@
-# Proyecto Final del Módulo 6
+# Proyecto Final del Módulo 6 - Pruebas Automatizadas
 # Plataforma de testing: https://practicesoftwaretesting.com
-
-# Pruebas Automatizadas
 
 # Módulo de Login
 
